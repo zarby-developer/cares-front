@@ -1,0 +1,37 @@
+{
+  "name": "cares-app-front",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@geoapi.es/nodejs": "~1.0.0",
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/firebase": "^7.6.1",
+    "@nuxtjs/pwa": "^3.3.5",
+    "algoliasearch": "^4.9.1",
+    "bootstrap": "^4.4.1",
+    "bootstrap-vue": "^2.13.1",
+    "cookie-universal-nuxt": "^2.1.4",
+    "core-js": "^3.9.1",
+    "firebase": "8.6.5",
+    "jwt-decode": "^3.1.2",
+    "nuxt": "^2.15.3",
+    "nuxt-buefy": "^0.4.4",
+    "passport": "^0.4.1",
+    "socket.io": "^4.1.2",
+    "socket.io-client": "^3.1.1",
+    "stream-chat": "^1.8.0",
+    "vue-cookie-law": "^1.13.3",
+    "vue-toast-notification": "^0.5.0",
+    "vuefire": "^2.2.5",
+    "vuexfire": "^3.2.5"
+  },
+  "devDependencies": {
+    "vuex-mock-store": "^0.0.8"
+  }
+}
